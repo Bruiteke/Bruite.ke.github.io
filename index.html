@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raddison Survey | Parkinn By Raddison Westlands</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="functionality.js"></script>
+</head>
+<div class="hero"></div>
+<nav>        
+    <img src="pii.png" class="logo">
+    <ul>              
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="counselling.html">Speak To A Counsellor</a></li>
+        <li><a href="events.html">Events</a></li>        
+    </ul>        
+</nav>
+<section>
+<div class="content">
+    <h1>Raddison Hotel Group</h1>
+    <h2>Your First Choice</h2>
+</div>
+</section>
+
+<div class="mycontent">
+    <p>This is a Survey</p>
+</div>    
+    <body>
+    <div class="container">
+        <h1>Parkinn Survey</h1>
+        <form id="form">
+
+            <!-- Details -->
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="name"
+                    placeholder="Enter your name" name="name"/>
+            </div>
+    
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+    
+                <!-- Input Type Email-->
+                <input type="email"
+                    id="email"
+                    placeholder="Enter your email" name="email"/>
+            </div>
+    
+            <div class="form-control">
+                <label for="age" id="label-age">
+                    Age
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="age"
+                    placeholder="Enter your age" name="age" />
+            </div>
+    
+            <div class="form-control">
+                <label for="role" id="label-role">
+                   Type of traveler
+                </label>
+                
+                <!-- Dropdown options -->
+                <select name="role" id="role">
+                    <option value="business">Business</option>
+                    <option value="couples">Couples</option>
+                    <option value="solo-travel">
+                       Solo Traveler
+                    </option>
+                    <option value="family">Family</option>
+                    <option value="friends-getaway">Friends Getaway</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="guest-opinion" id="label-opinion">
+                    1.
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="opinion"
+                    placeholder="What were your first impressions of the hotel?" name="opinion"/>
+            </div>
+
+            <div class="form-control">
+                <label for="hotel-staff" id="label-staff">
+                    2.
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="staff"
+                    placeholder="Did you have any issues with the hotel staff during your stay?" name="staff"/>
+            </div>
+
+            <div class="form-control">
+                <label for="hotel-stay" id="label-stay">
+                    3.
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="stay"
+                    placeholder="If there was one thing you could change about your stay, what would it be?" name="stay"/>
+            </div>
+
+            <div class="form-control">
+                <label for="hotel-buffet" id="label-buffet">
+                    4.
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="buffet"
+                    placeholder="What is your favorite item in the breakfast buffet?" name="buffet"/>
+            </div>
+
+            <div class="form-control">
+                <label for="clean-room" id="label-clean">
+                    5.
+                </label>
+    
+                <!-- Input Type Text -->
+                <input type="text"
+                    id="clean"
+                    placeholder="Was your room cleaned at a time that suited you every day?" name="clean"/>
+            </div>
+
+            <div class="form-control">
+                <label>
+                    Do you plan to stay at our hotel again?
+                </label>
+    
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                        id="recommed-1"
+                        name="recommed">Yes</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                        id="recommed-2"
+                        name="recommed">No</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                        id="recommed-3"
+                        name="recommed">Maybe</input>
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label>
+                    How likely are you to recommend the hotel to your friends and family?
+                </label>
+    
+                <!-- Input Type Radio Button -->
+                <label for="recommed-4">
+                    <input type="radio"
+                        id="recommed-4"
+                        name="recommeded">Very Likely</input>
+                </label>
+                <label for="recommed-5">
+                    <input type="radio"
+                        id="recommed-5"
+                        name="recommed">Not Likely At All</input>
+                </label>
+                <label for="recommed-6">
+                    <input type="radio"
+                        id="recommed-6"
+                        name="recommeded">Maybe</input>
+                </label>
+            </div>
+
+            <label>
+                How Would You Rate Your Experience Overall?
+            </label>          
+            <!-- RATING SCALE INPUT -->
+<div class="header">
+    <div class="rating">
+	<span class="rating-star-1">
+		<a href="#rate-1">★</a>
+		<span class="rating-star-2">
+			<a href="#rate-2">★</a>
+			<span class="rating-star-3">
+				<a href="#rate-3">★</a>
+				<span class="rating-star-4">
+					<a href="#rate-4">★</a>
+					<span class="rating-star-5">
+						<a href="#rate-5">★</a>
+					</span>
+				</span>
+			</span>
+		</span>
+	</span>
+</div>
+<!-- END OF SCALE INPUT -->
+
+                
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions
+                </label>
+    
+                <!-- multi-line text input control -->
+                <textarea name="comment" id="comment"
+                    placeholder="Enter your comment here">
+                </textarea>
+            </div>
+    
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+</html>
